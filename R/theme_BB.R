@@ -5,6 +5,7 @@
 #' @author
 #' Przemyslaw Biecek, \email{przemyslaw.biecek@@gmail.com}
 #'
+#' @import ggplot2
 #' @export
 theme_BB <- function(...) {
   theme_bw(...) + theme(text=element_text(family="xkcd", size=14),
