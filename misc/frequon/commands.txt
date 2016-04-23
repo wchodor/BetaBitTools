@@ -1,8 +1,8 @@
 ## TASK: intro
 
-From: ktośtam@cośtam.ogr
-To: you.
-Subject: asking for help
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
+Subject: You may be interested
 
 Pewna grupa (nazwać) ma problem.
 Musi się dostać do hasła zmarłego przyjaciela by cośtam.
@@ -24,8 +24,8 @@ type: `stattack(hint=TRUE)`.
 
 ## TASK: task1
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Frequencies
 
 We are so glad you want to help us!
@@ -50,8 +50,8 @@ Please, remember to name this vector with respective letters!
 
 ## TASK: task2
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Transcription
 
 Great job! Now, when we know which letters are used most often
@@ -70,8 +70,8 @@ Best regards!
 
 ## TASK: task3
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Key
 
 Well done! Now we are so close! Our message looks a little bit familiar,
@@ -94,8 +94,8 @@ where `old` are the letters in the code`s sense and `new` are fitted real letter
 
 ## TASK: task4
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Next text
 
 Excellent work, you have cracked the code!
@@ -115,13 +115,10 @@ where "X" is the name of that message you are able to unlock.
 
 We would be grateful.
 
-Greetings
-XYZ
-
 ## TASK: task5
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Lengths in the text
 
 Obviously this message is also ciphered. We tried to use the key
@@ -151,8 +148,8 @@ the similarities between distribution of the lengths in our message and known la
 
 ## TASK: task6
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Language in the message
 
 Well done! Thanks to your results we obtain excellent barplots (you can probably
@@ -167,8 +164,8 @@ where "Language" is the name of the right language.
 
 ## TASK: task7
 
-From: ktośtam@cośtam.ogr
-To: you.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Password
 
 Tak też i nam się wydaje. Świetna robota, teraz znamy klucz, znamy język...
@@ -184,7 +181,9 @@ w trzeciej z naszych wiadomości, prosimy, daj nam znać!
 
 ## TASK: outro
 
-You are the champion.
+From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
+To: c81632dce28ca740f2f2503656f3d62a@mail.tor
+Subject: You are the champion!
 
 ## TASK: hint1
 
