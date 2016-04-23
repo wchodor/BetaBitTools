@@ -222,3 +222,96 @@ Do the same with all elements of `wikiquotes` list. You may use `for` loop or ev
 ## TASK: hint7
 
 Compare distributions using `barplot()` function for counted lengths of words in \nthe message and counted lengths of words in all languages.
+
+## TASK: errorIntro
+
+We were looking so long for somebody like you, who could
+help us to solve this mistery. If you don`t have access to the
+messages, than we need to ask someone else :(
+
+## TASK: errorNAs
+
+Nice try, but there are one or more missing values (NA) in given vector.
+Fill all the NAs and then try to pass the vector again.
+
+## TASK: errorFrequencies
+
+There is something wrong with given frequencies... Have you converted text to
+lowercase? Are you sure you did this right?
+
+## TASK: errorNoNAMES
+
+The vector you have passed does not contain names. Please, pass named vector.
+
+## TASK: errorLetters
+
+You did not pass frequencies for all letters :(
+
+## TASK: errorDecipher
+
+This translation seems to doesn`t fit to the `roses`.
+Did you sorted `freq` vector before translation correctly?
+
+## TASK: errorKey1
+
+We don't understand the `key` value in given form. Type again the key you found in the
+following form: c(old = 'oldlettersabcd...z', new = 'newlettersrespectively')
+
+## TASK: errorKey2
+
+Don`t you think, that lengths of `old` and `new` both should be equal to 26?
+This is the number of all letters in Latin alphabet.
+
+Please, correct this mistake and try again.
+
+## TASK: errorBadKey
+
+Nice try, however this key does not traslate the message correctly.
+Are you sure everything is all right?
+
+## TASK: errorBadX
+
+According to the our first our remaining messages are named "guns" and "and".
+so X should be one from these names.
+
+## TASK: errorBadX2
+
+Have you really unlocked the "guns" message?
+
+## TASK: errorBadAND
+
+We cannot open the message. Try again, maybe you send a bad file?
+
+## TASK: errorWikiNames
+
+Names of attachment don`t match. Please, send us `lengths` with names accordant
+with `wikiquotes` names.
+
+## TASK: errorLengths
+
+There is something wrong with the method you count length of words in the message
+or `wikiqoutes` file. Please, try again.
+
+## TASK: errorLanguage
+
+We don`t think this is the right answer. The language you proposed doesn`t fit to
+our message.
+
+## TASK: errorEnd
+
+We afraid this is not the password we are looking for. Are you sure there is nothing
+else to see?
+
+## TASK: errorAttachment
+
+It seems that you might have forgotten to attach files. Please, send this message
+with the attachement.
+
+## TASK: errorContent
+
+Send this message without content?
+
+## TASK: errorSubject
+
+Do You Want to Send This Message Without a Subject?
+
