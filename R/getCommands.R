@@ -4,6 +4,11 @@
 #'
 #' @param fname Name of a file to read and transform.
 #'
+#' @examples
+#' \dontrun{
+#'  get_commands("./misc/proton/commands.txt")
+#' }
+#'
 #' @author
 #' Przemyslaw Biecek, \email{przemyslaw.biecek@@gmail.com}
 #'

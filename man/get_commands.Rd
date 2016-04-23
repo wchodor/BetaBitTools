@@ -12,6 +12,12 @@ get_commands(fname)
 \description{
 Read file with commands from a directory and use the 'decode' function to decode it.
 }
+\examples{
+\dontrun{
+ get_commands("./misc/proton/commands.txt")
+}
+
+}
 \author{
 Przemyslaw Biecek, \email{przemyslaw.biecek@gmail.com}
 }
