@@ -16,11 +16,11 @@ Czy zechcesz dołączyć do zespołu i pomóc im w rozwiązaniu tego
 problemu?
 
 If you want to help, please type:
-`stattack(subject = "Re: Asking for help", content = "Text of these messages you have access to")`
+`frequon(subject = "Re: Asking for help", content = "Text of these messages you have access to")`
 so as we could read the message too.
 
 Remember: any time you want, you can get some piece of advice, just
-type: `stattack(hint=TRUE)`.
+type: `frequon(hint=TRUE)`.
 
 ## TASK: task1
 
@@ -44,7 +44,7 @@ We are going to prepare data about frequencies of letters
 in english, so if you could find the frequencies in the messages,
 that would be awesome (to trzeba zmienic :P).
 
-Send us reply: `stattack(subject = "Re: Frequencies", content = `freq`)` as soon as you
+Send us reply: `frequon(subject = "Re: Frequencies", content = `freq`)` as soon as you
 will finish. `freq` is the vector of frequencies for each letter.
 Please, remember to name this vector with respective letters!
 
@@ -63,7 +63,7 @@ frequencies of letters in the english language.
 Now you can substitute old ciphered letters with the new
 english letters. Can you show us your results?
 
-Send us reply: `stattack(subject = "Re: Transcription", content = "textyouwillget")`.
+Send us reply: `frequon(subject = "Re: Transcription", content = "textyouwillget")`.
 We wish you luck!
 
 Best regards!
@@ -89,7 +89,7 @@ rzeczownikami?
 Take advantage of `top100commonWords`.
 
 Type:
-`stattack( subject="Re: Key", content=c(old = "abcdef....z", new = "newlettersrespectively"))`
+`frequon( subject="Re: Key", content=c(old = "abcdef....z", new = "newlettersrespectively"))`
 where `old` are the letters in the code`s sense and `new` are fitted real letters.
 
 ## TASK: task4
@@ -108,7 +108,7 @@ to ciphere the names of two remaining messages?
 Would you have access to them now?
 
 Please, send us reply:
-`stattack(subject = "Re: Next text: X",
+`frequon(subject = "Re: Next text: X",
           content = "Content of the unlocked message")`
 
 where "X" is the name of that message you are able to unlock.
@@ -138,7 +138,7 @@ This is huge job to measure the length of each word for all languages, but we be
 you know some fast way to (.... coś byle nie do this).
 
 Send us your results:
-`stattack(subject="Re: Lengths in the text", content = `lengths`, attachment = `wiki_lengths`)`.
+`frequon(subject="Re: Lengths in the text", content = `lengths`, attachment = `wiki_lengths`)`.
 `lengths` is the vector of tabeled length of all words.
 `wiki_lengths` is the list of tabeled length of all words for each language.
 Please, remember to name this list with respective languages!
@@ -159,7 +159,7 @@ How do you think: which from the all distributions is most similar to
 the distribution of the lengths in our message?
 
 Send us your thoughts! Type
-`stattack(subject = "Re: Language in and message", content = "Language")`
+`frequon(subject = "Re: Language in and message", content = "Language")`
 where "Language" is the name of the right language.
 
 ## TASK: task7
@@ -177,7 +177,7 @@ Czy wiesz, jak jest po Słoweńsku `guns`?
 My zajmujemy się tłumaczeniem wiadomości. Jeśli znajdziesz coś interesującego
 w trzeciej z naszych wiadomości, prosimy, daj nam znać!
 
-`stattack(subject = "Re: Password", content = "thePasswordYouWillFind")`.
+`frequon(subject = "Re: Password", content = "thePasswordYouWillFind")`.
 
 ## TASK: outro
 
