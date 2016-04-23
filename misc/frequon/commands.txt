@@ -1,5 +1,7 @@
 ## TASK: intro
 
+You've Got Mail
+
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: You may be interested
@@ -23,6 +25,8 @@ Remember: any time you want, you can get some piece of advice, just
 type: `frequon(hint=TRUE)`.
 
 ## TASK: task1
+
+You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
@@ -50,6 +54,8 @@ Please, remember to name this vector with respective letters!
 
 ## TASK: task2
 
+You've Got Mail
+
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Transcription
@@ -69,6 +75,8 @@ We wish you luck!
 Best regards!
 
 ## TASK: task3
+
+You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
@@ -94,6 +102,8 @@ where `old` are the letters in the code`s sense and `new` are fitted real letter
 
 ## TASK: task4
 
+You've Got Mail
+
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Next text
@@ -116,6 +126,8 @@ where "X" is the name of that message you are able to unlock.
 We would be grateful.
 
 ## TASK: task5
+
+You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
@@ -148,6 +160,8 @@ the similarities between distribution of the lengths in our message and known la
 
 ## TASK: task6
 
+You've Got Mail
+
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Language in the message
@@ -163,6 +177,8 @@ Send us your thoughts! Type
 where "Language" is the name of the right language.
 
 ## TASK: task7
+
+You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
@@ -180,6 +196,8 @@ w trzeciej z naszych wiadomości, prosimy, daj nam znać!
 `frequon(subject = "Re: Password", content = "thePasswordYouWillFind")`.
 
 ## TASK: outro
+
+You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
@@ -215,13 +233,13 @@ Remember that if we have `old` as ciphered and `new` as real letters, we need to
 
 ## TASK: hint6
 
-There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split the string into\nsingle words with `strsplit()` as you did it before. To measure the length\nof each words correctly watch all comas and dots! Does the length of "dots." and "dots" is the same? `gsub()` function with "[^a-z ]" regex may be helpful here\n(but only if you convert your text to lowercase!).
+There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split the string into single words with `strsplit()` as you did it before. To measure the length of each words correctly watch all comas and dots! Does the length of "dots." and "dots" is the same? `gsub()` function with "[^a-z ]" regex may be helpful here (but only if you convert your text to lowercase!).
 
 Do the same with all elements of `wikiquotes` list. You may use `for` loop or even `lapply` function to do this easier and faster!
 
 ## TASK: hint7
 
-Compare distributions using `barplot()` function for counted lengths of words in \nthe message and counted lengths of words in all languages.
+Compare distributions using `barplot()` function for counted lengths of words in the message and counted lengths of words in all languages.
 
 ## TASK: errorIntro
 
