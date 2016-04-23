@@ -1,8 +1,192 @@
-## TASK 1
+## TASK: intro
 
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: asking for help
 
+Pewna grupa (nazwać) ma problem.
+Musi się dostać do hasła zmarłego przyjaciela by cośtam.
+Zostały po nim... 3  wiadomości: `guns`, `and` oraz `roses`,
+do których nie mają dostępu, ale podejrzewają, że w tych
+wiadomościach może być coś interesującego. Zwracają się do Ciebie
+z pomocą, gdyż słyszeli, że jestes dobry w rozwiązywaniu takich
+problemów.
 
-## TASK 1 HINT
+Czy zechcesz dołączyć do zespołu i pomóc im w rozwiązaniu tego
+problemu?
+
+If you want to help, please type:
+`stattack(subject = "Re: Asking for help", content = "Text of these messages you have access to")`
+so as we could read the message too.
+
+Remember: any time you want, you can get some piece of advice, just
+type: `stattack(hint=TRUE)`.
+
+## TASK: task1
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Frequencies
+
+We are so glad you want to help us!
+
+Thank you for the message, it looks interesting... However, this text
+is to long to be one password we are seeking. This must be some coded
+message, if only we could know the key...
+
+But let`s take a look, the `p` letter appears very often. And
+`i` does`t. In english language letter `e` would occures
+most often. If we would know how often each letter is used in
+the message, we could compare them with known english
+letter frequencies! So let`s to this!
+
+We are going to prepare data about frequencies of letters
+in english, so if you could find the frequencies in the messages,
+that would be awesome (to trzeba zmienic :P).
+
+Send us reply: `stattack(subject = "Re: Frequencies", content = `freq`)` as soon as you
+will finish. `freq` is the vector of frequencies for each letter.
+Please, remember to name this vector with respective letters!
+
+## TASK: task2
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Transcription
+
+Great job! Now, when we know which letters are used most often
+and which are the least common, we can combine them with known
+english frequencies of letters. We have prepared and attached
+the `EnglishLetterFrequency` dataset. It contains relative
+frequencies of letters in the english language.
+
+Now you can substitute old ciphered letters with the new
+english letters. Can you show us your results?
+
+Send us reply: `stattack(subject = "Re: Transcription", content = "textyouwillget")`.
+We wish you luck!
+
+Best regards!
+
+## TASK: task3
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Key
+
+Well done! Now we are so close! Our message looks a little bit familiar,
+there are even some words we know. But there are also still words,
+looking strange. It means that our key is not fully
+correct, and we need to investigate these letters, that were
+mistranslated.
+
+There is one idea how to do this.
+
+Zliczmy wszystkie wyrazy, te, które pojawiają się najczęściej sa dla nas łatwe do
+poprawienia. Te które pojawiają się najrzadziej być może są łatwo rozpoznawalnymi
+rzeczownikami?
+
+Take advantage of `top100commonWords`.
+
+Type:
+`stattack( subject="Re: Key", content=c(old = "abcdef....z", new = "newlettersrespectively"))`
+where `old` are the letters in the code`s sense and `new` are fitted real letters.
+
+## TASK: task4
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Next text
+
+Excellent work, you have cracked the code!
+
+However there is no password in here.
+There must be some clue in this message...
+
+What do you think about possibility that our friend used the key
+to ciphere the names of two remaining messages?
+Would you have access to them now?
+
+Please, send us reply:
+`stattack(subject = "Re: Next text: X",
+          content = "Content of the unlocked message")`
+
+where "X" is the name of that message you are able to unlock.
+
+We would be grateful.
+
+Greetings
+XYZ
+
+## TASK: task5
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Lengths in the text
+
+Obviously this message is also ciphered. We tried to use the key
+but turns out it was written in some language we unfortunatelly don`t know.
+Can you recognize the langague?
+
+Don`t worry, we know some simple idea how to recognize the language of the any
+ciphered message. All you need to do is to measure the length of each word. If we would
+know how many words has the length of 1, 2, 3, and so on, we could compare
+them with the lengths of words in languages that we know! Naturally we need some
+huge amount of words in plenty languages. It`s just as well we have a sample from
+wikipedia resources, so we can share it with you.
+Please, find the `wikiquotes` attachment. There is a list of quotes for many languages.
+We hope this is enough for our needs.
+
+This is huge job to measure the length of each word for all languages, but we believe
+you know some fast way to (.... coś byle nie do this).
+
+Send us your results:
+`stattack(subject="Re: Lengths in the text", content = `lengths`, attachment = `wiki_lengths`)`.
+`lengths` is the vector of tabeled length of all words.
+`wiki_lengths` is the list of tabeled length of all words for each language.
+Please, remember to name this list with respective languages!
+
+Thanks to this data we would be able to prepare couple barplots to conclude about
+the similarities between distribution of the lengths in our message and known languages.
+
+## TASK: task6
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Language in the message
+
+Well done! Thanks to your results we obtain excellent barplots (you can probably
+also see them in your magic program :P). Now we can investigate
+what the language was used to prepare the second message.
+How do you think: which from the all distributions is most similar to
+the distribution of the lengths in our message?
+
+Send us your thoughts! Type
+`stattack(subject = "Re: Language in and message", content = "Language")`
+where "Language" is the name of the right language.
+
+## TASK: task7
+
+From: ktośtam@cośtam.ogr
+To: you.
+Subject: Password
+
+Tak też i nam się wydaje. Świetna robota, teraz znamy klucz, znamy język...
+Może zanim zaczniemy tłumaczyć tę wiadomość, spróbujmy uzyskać dostęp
+do ostatniej the `guns`. Wiemy, że nasz przyjaciel lubi wykorzystywać
+klucz jednej zagadki do kodowania nazwy innej, więc może i tym razem...
+Czy wiesz, jak jest po Słoweńsku `guns`?
+
+My zajmujemy się tłumaczeniem wiadomości. Jeśli znajdziesz coś interesującego
+w trzeciej z naszych wiadomości, prosimy, daj nam znać!
+
+`stattack(subject = "Re: Password", content = "thePasswordYouWillFind")`.
+
+## TASK: outro
+
+You are the champion.
+
+## TASK: hint1
 
 Firstly try to answer the following questions:
   * Does R treat "A" and "a" as the same letter?
@@ -16,30 +200,26 @@ The `letters` R-object may also be very helpful for the problem.
 
 To see whose letters occure most frequently use `sort()`.
 
-## TASK 2
-
-
-
-## TASK 2 HINT
+## TASK: hint2
 
 Manual subsitution may by pretty labourious, that is why you probably do apprieciate a `chartr()` function :) Remember to convert all letters to lowercases.
 
-## TASK 4 HINT
+## TASK: hint4
 
 All you need is to split all text by spaces and table all created words. Do you remember how `strsplit()` work?
 
 If you did this, try to put old letters in alphabetical order.
 
-## TASK 5 HINT
+## TASK: hint5
 
 Remember that if we have `old` as ciphered and `new` as real letters, we need to find  real letters in `new` and seeking their translation in the `old` character string.
 
-## TASK 6 HINT
+## TASK: hint6
 
 There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split the string into\nsingle words with `strsplit()` as you did it before. To measure the length\nof each words correctly watch all comas and dots! Does the length of "dots." and "dots" is the same? `gsub()` function with "[^a-z ]" regex may be helpful here\n(but only if you convert your text to lowercase!).
 
 Do the same with all elements of `wikiquotes` list. You may use `for` loop or even `lapply` function to do this easier and faster!
 
-## TASK 7 HINT
+## TASK: hint7
 
 Compare distributions using `barplot()` function for counted lengths of words in \nthe message and counted lengths of words in all languages.
