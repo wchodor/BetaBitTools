@@ -8,7 +8,7 @@
 #' Przemyslaw Biecek, \email{przemyslaw.biecek@@gmail.com}
 #'
 #' @export
-getCommands <- function(fname) {
+get_commands <- function(fname) {
   lines <- readLines(fname)
   tlines <- grep(lines, pattern="## TASK")
   tstart <- tlines + 2
