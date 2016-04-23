@@ -1,0 +1,45 @@
+## TASK 1
+
+
+
+## TASK 1 HINT
+
+Firstly try to answer the following questions:
+  * Does R treat "A" and "a" as the same letter?
+  * Is "word" and "word," the same word for R?
+
+The functions like: "tolower()/toupper()", "gsub()" might be usefull to handle these issues. Consider replacing all non-alphanumeric  characters with empty strings ("").
+The easiest way to deal with these kinds of problem is to use regex. String: "[^a-z ]" allows you to extract all non-letter charaters with spaces.
+
+Finally familiarize yourself with "strsplit()" and "table()" to count all letters easily.
+The `letters` R-object may also be very helpful for the problem.
+
+To see whose letters occure most frequently use `sort()`.
+
+## TASK 2
+
+
+
+## TASK 2 HINT
+
+Manual subsitution may by pretty labourious, that is why you probably do apprieciate a `chartr()` function :) Remember to convert all letters to lowercases.
+
+## TASK 4 HINT
+
+All you need is to split all text by spaces and table all created words. Do you remember how `strsplit()` work?
+
+If you did this, try to put old letters in alphabetical order.
+
+## TASK 5 HINT
+
+Remember that if we have `old` as ciphered and `new` as real letters, we need to find  real letters in `new` and seeking their translation in the `old` character string.
+
+## TASK 6 HINT
+
+There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split the string into\nsingle words with `strsplit()` as you did it before. To measure the length\nof each words correctly watch all comas and dots! Does the length of "dots." and "dots" is the same? `gsub()` function with "[^a-z ]" regex may be helpful here\n(but only if you convert your text to lowercase!).
+
+Do the same with all elements of `wikiquotes` list. You may use `for` loop or even `lapply` function to do this easier and faster!
+
+## TASK 7 HINT
+
+Compare distributions using `barplot()` function for counted lengths of words in \nthe message and counted lengths of words in all languages.
