@@ -4,21 +4,23 @@ You've Got Mail
 
 From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
-Subject: You may be interested
+Subject: Interested?
 
-Pewna grupa (nazwać) ma problem.
-Musi się dostać do hasła zmarłego przyjaciela by cośtam.
-Zostały po nim... 3  wiadomości: `guns`, `and` oraz `roses`,
-do których nie mają dostępu, ale podejrzewają, że w tych
-wiadomościach może być coś interesującego. Zwracają się do Ciebie
-z pomocą, gdyż słyszeli, że jestes dobry w rozwiązywaniu takich
-problemów.
+Hi,
+We are looking for a smart guy with extraordinary hacking skills.
+Our mutual friend assured us that you are our men.
 
-Czy zechcesz dołączyć do zespołu i pomóc im w rozwiązaniu tego
-problemu?
+TL;DR: We are observing a group of terrorists that are planning something.
+We have intercepted some data, but do not know how to read it (attached).
+
+Somewhere there is a password. We have to find it to stop terrorists.
+Would you like to join our team? Help us and we will help you in future.
+
+It’s not clear how to start. Our flink told us that the key is somehow related with three key phrases: `guns`, `and`, `roses`. Probably these are names of some messages.
+Would you check if you have access to any of them?
 
 If you want to help, please type:
-`frequon(subject = "Re: Asking for help", content = "Text of these messages you have access to")`
+`frequon(subject = "Re: Interested?", content = "Text of the message that you have access to")`
 so as we could read the message too.
 
 Remember: any time you want, you can get some piece of advice, just
