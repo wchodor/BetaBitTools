@@ -8,16 +8,17 @@ Subject: Interested?
 
 Hi,
 We are looking for a smart guy with extraordinary hacking skills.
-Our mutual friend assured us that you are our men.
+Our mutual friend assured us that you are our man.
 
 TL;DR: We are observing a group of terrorists that are planning something.
 We have intercepted some data, but do not know how to read it (attached).
 
-Somewhere there is a password. We have to find it to stop terrorists.
-Would you like to join our team? Help us and we will help you in future.
+There is a password somewhere. We have to find it to stop terrorists.
+Would you like to join our team? Help us and we will help you in the future.
 
-It’s not clear how to start. Our flink told us that the key is somehow related with three key phrases: `guns`, `and`, `roses`. Probably these are names of some messages.
-Would you check if you have access to any of them?
+It’s not clear how to start. Our flink(?) told us that the key is somehow related with three key phrases: `guns`, `and`, `roses`
+Probably these are the names of some messages.
+Would you like to check if you have access to any of them?
 
 If you want to help, please type:
 `frequon(subject = "Re: Interested?", content = "Text of the message that you have access to")`
@@ -37,22 +38,22 @@ Subject: Frequencies
 We are so glad you want to help us!
 
 Thank you for the message, it looks interesting... However, this text
-is to long to be one password we are seeking. This must be some coded
-message, if only we could know the key...
+is too long to be the password that we are seeking for. This must be some coded
+message. If only we could know the key...
 
 But let`s take a look, the `p` letter appears very often. And
-`i` does`t. In english language letter `e` would occures
-most often. If we would know how often each letter is used in
-the message, we could compare them with known english
-letter frequencies! So let`s to this!
+`i` doesn`t. In english language letter `e` occures
+the most often. If we knew how often each letter is used in
+the message, we could compare them with well-known English
+letter frequencies! So let`s do this!
 
 We are going to prepare data about frequencies of letters
-in english, so if you could find the frequencies in the messages,
+in English language, so if you could find the frequencies in the messages,
 that would be awesome (to trzeba zmienic :P).
 
-Send us reply: `frequon(subject = "Re: Frequencies", content = `freq`)` as soon as you
-will finish. `freq` is the vector of frequencies for each letter.
-Please, remember to name this vector with respective letters!
+Send us a reply: `frequon(subject = "Re: Frequencies", content = `freq`)` as soon as you
+finish. `freq` is the vector of frequencies for each letter.
+Please, remember to name this vector with appropriate letters!
 
 ## TASK: task2
 
@@ -62,14 +63,14 @@ From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Transcription
 
-Great job! Now, when we know which letters are used most often
-and which are the least common, we can combine them with known
+Great job! Now, when we do know which letters are used the most often
+and which are the least common, we can combine them with well-known
 english frequencies of letters. We have prepared and attached
-the `EnglishLetterFrequency` dataset. It contains relative
-frequencies of letters in the english language.
+the `EnglishLetterFrequency` dataset. It contains 
+frequencies of letters in the English language.
 
 Now you can substitute old ciphered letters with the new
-english letters. Can you show us your results?
+English letters. Can you show us your results?
 
 Send us reply: `frequon(subject = "Re: Transcription", content = "textyouwillget")`.
 We wish you luck!
@@ -84,22 +85,22 @@ From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Key
 
-Well done! Now we are so close! Our message looks a little bit familiar,
-there are even some words we know. But there are also still words,
-looking strange. It means that our key is not fully
-correct, and we need to investigate these letters, that were
+Well done! We are so close now! Our message looks a little bit familiar.
+There are even some words that we know. But there are still some words that are 
+looking strange. It means that our key is not completely
+correct and we need to investigate these letters that were
 mistranslated.
 
 There is one idea how to do this.
 
-Zliczmy wszystkie wyrazy, te, które pojawiają się najczęściej sa dla nas łatwe do
-poprawienia. Te które pojawiają się najrzadziej być może są łatwo rozpoznawalnymi
-rzeczownikami?
+Let's count all the words.
+Those which appear the most often are for us easy to amend.
+The ones which apperar the least often are perhaps easily recognisable nouns?
 
 Take advantage of `top100commonWords`.
 
 Type:
-`frequon( subject="Re: Key", content=c(old = "abcdef....z", new = "newlettersrespectively"))`
+`frequon( subject="Re: Key", content=c(old = "abcdef....z", new = "newlettersrespectively"))`,
 where `old` are the letters in the code`s sense and `new` are fitted real letters.
 
 ## TASK: task4
@@ -112,18 +113,17 @@ Subject: Next text
 
 Excellent work, you have cracked the code!
 
-However there is no password in here.
+However, there is no password in here.
 There must be some clue in this message...
 
-What do you think about possibility that our friend used the key
-to ciphere the names of two remaining messages?
-Would you have access to them now?
+Perhaps our friend used the key
+to cipher the names of the two remaining messages?
+Can you have access to them now?
 
 Please, send us reply:
 `frequon(subject = "Re: Next text: X",
-          content = "Content of the unlocked message")`
-
-where "X" is the name of that message you are able to unlock.
+          content = "Content of the unlocked message")`,
+where "X" is the name of the message thatyou are able to unlock.
 
 We would be grateful.
 
@@ -136,28 +136,28 @@ To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Lengths in the text
 
 Obviously this message is also ciphered. We tried to use the key
-but turns out it was written in some language we unfortunatelly don`t know.
+but unfortunately it turned out that it was written in a language that we don`t know.
 Can you recognize the langague?
 
-Don`t worry, we know some simple idea how to recognize the language of the any
-ciphered message. All you need to do is to measure the length of each word. If we would
-know how many words has the length of 1, 2, 3, and so on, we could compare
-them with the lengths of words in languages that we know! Naturally we need some
-huge amount of words in plenty languages. It`s just as well we have a sample from
+Don`t worry! We know a simple idea how to recognize the language of any
+ciphered message. All you need to do is to measure the length of each word. If we knew
+how many words had the lengths of 1, 2, 3, and so on, we could compare
+them with the lengths of the words in languages that we know! Naturally, we need a
+huge amount of words in many languages. Fortunately we have a sample from
 wikipedia resources, so we can share it with you.
-Please, find the `wikiquotes` attachment. There is a list of quotes for many languages.
-We hope this is enough for our needs.
+Please, find the `wikiquotes` attachment. There is a list of quotes in many languages.
+We hope this will be enough for our needs.
 
-This is huge job to measure the length of each word for all languages, but we believe
-you know some fast way to (.... coś byle nie do this).
+This is a time-consuming job to measure the length of each word for all of the languages, but we believe that
+you know some fast way to cope with this problem.
 
 Send us your results:
 `frequon(subject="Re: Lengths in the text", content = `lengths`, attachment = `wiki_lengths`)`.
 `lengths` is the vector of tabeled length of all words.
 `wiki_lengths` is the list of tabeled length of all words for each language.
-Please, remember to name this list with respective languages!
+Please, remember to name this list with apropriate languages!
 
-Thanks to this data we would be able to prepare couple barplots to conclude about
+By using this data we would be able to prepare couple barplots to sum up 
 the similarities between distribution of the lengths in our message and known languages.
 
 ## TASK: task6
@@ -169,14 +169,14 @@ To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Language in the message
 
 Well done! Thanks to your results we obtain excellent barplots (you can probably
-also see them in your magic program :P). Now we can investigate
-what the language was used to prepare the second message.
-How do you think: which from the all distributions is most similar to
+see them in your magic program :P). Now we can investigate
+what language was used to prepare the second message.
+What do you think? Which distribution is the most similar to
 the distribution of the lengths in our message?
 
-Send us your thoughts! Type
+Send us your thoughts! Type:
 `frequon(subject = "Re: Language in and message", content = "Language")`
-where "Language" is the name of the right language.
+where "Language" is the name of the correct language.
 
 ## TASK: task7
 
@@ -186,15 +186,16 @@ From: 154eb7278fc44650bdd2bb39bb2b5c69@mail.tor
 To: c81632dce28ca740f2f2503656f3d62a@mail.tor
 Subject: Password
 
-Tak też i nam się wydaje. Świetna robota, teraz znamy klucz, znamy język...
-Może zanim zaczniemy tłumaczyć tę wiadomość, spróbujmy uzyskać dostęp
-do ostatniej the `guns`. Wiemy, że nasz przyjaciel lubi wykorzystywać
-klucz jednej zagadki do kodowania nazwy innej, więc może i tym razem...
-Czy wiesz, jak jest po Słoweńsku `guns`?
+We think so too. Great job! Now we have the key, we know the language ...
+Perhaps before we start translating this message, we will try to get an access 
+to the phrase 'guns'. We know that our friend likes to use the key 
+from one puzzle in order to encode the name of the other one. So maybe also this time ...
+Do you know what is the Slovenian counterpart of the word 'guns'?
 
-My zajmujemy się tłumaczeniem wiadomości. Jeśli znajdziesz coś interesującego
-w trzeciej z naszych wiadomości, prosimy, daj nam znać!
+We are responsible for translating the message. If you find something interesting
+in the third of our messages, let us know, please!
 
+Type:
 `frequon(subject = "Re: Password", content = "thePasswordYouWillFind")`.
 
 ## TASK: outro
