@@ -207,92 +207,101 @@ Subject: You are the champion!
 
 ## TASK: hint1
 
-Firstly try to answer the following questions:
+Firstly, try to answer the following questions:
   * Does R treat "A" and "a" as the same letter?
   * Is "word" and "word," the same word for R?
 
-The functions like: "tolower()/toupper()", "gsub()" might be usefull to handle these issues. Consider replacing all non-alphanumeric  characters with empty strings ("").
-The easiest way to deal with these kinds of problem is to use regex. String: "[^a-z ]" allows you to extract all non-letter charaters with spaces.
+The functions like: "tolower()/toupper()", "gsub()" might be useful to handle these issues. Consider replacing all non-alphanumeric
+characters with empty strings ("").
+The easiest way to deal with this kind of problem is to use regex. String: "[^a-z ]" allows you to extract all non-letter charaters
+with spaces.
 
-Finally familiarize yourself with "strsplit()" and "table()" to count all letters easily.
+Finally familiarize yourself with "strsplit()" and "table()" to count all of the letters easily.
 The `letters` R-object may also be very helpful for the problem.
 
-To see whose letters occure most frequently use `sort()`.
+To see which letters occure the most frequently use `sort()`.
 
 ## TASK: hint2
 
-Manual subsitution may by pretty labourious, that is why you probably do apprieciate a `chartr()` function :) Remember to convert all letters to lowercases.
+Manual subsitution may by pretty demanding. This is why you may appreciate a `chartr()` function :) Remember to convert all
+letters to lowercases.
 
 ## TASK: hint4
 
-All you need is to split all text by spaces and table all created words. Do you remember how `strsplit()` work?
+All you need to do is split the whole text by spaces and table all created words. Do you remember how `strsplit()` function works?
 
-If you did this, try to put old letters in alphabetical order.
+If you do this, try to put old letters in alphabetical order.
 
 ## TASK: hint5
 
-Remember that if we have `old` as ciphered and `new` as real letters, we need to find  real letters in `new` and seeking their translation in the `old` character string.
+Remember that if we have `old` as ciphered letters and `new` as real ones, we need to find real letters in `new` and seek for their
+translation in the `old` character string.
 
 ## TASK: hint6
 
-There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split the string into single words with `strsplit()` as you did it before. To measure the length of each words correctly watch all comas and dots! Does the length of "dots." and "dots" is the same? `gsub()` function with "[^a-z ]" regex may be helpful here (but only if you convert your text to lowercase!).
+There is a very useful function in R to measure number of characters in words. Take advantage of `nchar()` function. Remember to split
+the string into single words with `strsplit()` as you probably did before. To check the length of each word correctly pay attention to
+all comas and dots! Is the length of "dots." and "dots" the same? `gsub()` function with "[^a-z ]" regex may be helpful here (only if
+you convert your text to lowercase!).
 
-Do the same with all elements of `wikiquotes` list. You may use `for` loop or even `lapply` function to do this easier and faster!
+Do the same thing with all of the elements of the `wikiquotes` list. You may use `for` loop or even `lapply` function to do this
+easier and faster!
 
 ## TASK: hint7
 
-Compare distributions using `barplot()` function for counted lengths of words in the message and counted lengths of words in all languages.
+Compare distributions using `barplot()` function for counted lengths of words in the message and counted lengths of words in all
+languages.
 
 ## TASK: errorIntro
 
-We were looking so long for somebody like you, who could
-help us to solve this mistery. If you don`t have access to the
-messages, than we need to ask someone else :(
+We were looking so long for somebody like you who could
+help us solve this mistery. If you don`t have access to the
+messages, than we wiil have to ask someone else :(
 
 ## TASK: errorNAs
 
-Nice try, but there are one or more missing values (NA) in given vector.
-Fill all the NAs and then try to pass the vector again.
+Nice try, but there is one or more missing values (NAs) in the given vector.
+Replace all the NAs and then try to pass the vector again.
 
 ## TASK: errorFrequencies
 
-There is something wrong with given frequencies... Have you converted text to
-lowercase? Are you sure you did this right?
+There is something wrong with the given frequencies... Have you converted the text to
+lowercase? Are you sure you did this properly?
 
 ## TASK: errorNoNAMES
 
-The vector you have passed does not contain names. Please, pass named vector.
+The vector that you passed does not contain names. Please, pass named vector.
 
 ## TASK: errorLetters
 
-You did not pass frequencies for all letters :(
+You did not pass frequencies for all of the letters :(
 
 ## TASK: errorDecipher
 
-This translation seems to doesn`t fit to the `roses`.
-Did you sorted `freq` vector before translation correctly?
+This translation seems not to fit to the `roses`.
+Did you sort `freq` vector correctly before translation?
 
 ## TASK: errorKey1
 
-We don't understand the `key` value in given form. Type again the key you found in the
+We don't understand the `key` value in the given form. Type again the key you found in the
 following form: c(old = 'oldlettersabcd...z', new = 'newlettersrespectively')
 
 ## TASK: errorKey2
 
-Don`t you think, that lengths of `old` and `new` both should be equal to 26?
-This is the number of all letters in Latin alphabet.
+Don`t you think that both lengths of `old` and `new` should be equal to 26?
+This is the number of all letters in the Latin alphabet.
 
 Please, correct this mistake and try again.
 
 ## TASK: errorBadKey
 
-Nice try, however this key does not traslate the message correctly.
-Are you sure everything is all right?
+Nice try. However, this key does not translate the message correctly.
+Are you sure that everything is all right?
 
 ## TASK: errorBadX
 
-According to the our first our remaining messages are named "guns" and "and".
-so X should be one from these names.
+(? I don't understand what the author meant) According to the first our remaining messages are named "guns" and "and".
+This is why X should be one of these names.
 
 ## TASK: errorBadX2
 
@@ -300,26 +309,26 @@ Have you really unlocked the "guns" message?
 
 ## TASK: errorBadAND
 
-We cannot open the message. Try again, maybe you send a bad file?
+We can not open the message. Try again. Maybe you sent a bad file?
 
 ## TASK: errorWikiNames
 
-Names of attachment don`t match. Please, send us `lengths` with names accordant
-with `wikiquotes` names.
+Names of attachment are incorrect. Please, send us `lengths` with names according
+to `wikiquotes` names.
 
 ## TASK: errorLengths
 
-There is something wrong with the method you count length of words in the message
-or `wikiqoutes` file. Please, try again.
+There is something wrong with the way you count the lengths of the words in the message
+or the `wikiqoutes` file. Please, try again.
 
 ## TASK: errorLanguage
 
-We don`t think this is the right answer. The language you proposed doesn`t fit to
+We don`t think that this is the right answer. The language you suggested doesn`t fit
 our message.
 
 ## TASK: errorEnd
 
-We afraid this is not the password we are looking for. Are you sure there is nothing
+We are afraid this is not the password that we are looking for. Are you sure there is nothing
 else to see?
 
 ## TASK: errorAttachment
@@ -329,9 +338,8 @@ with the attachement.
 
 ## TASK: errorContent
 
-Send this message without content?
+Did you send this message without content?
 
 ## TASK: errorSubject
 
-Do You Want to Send This Message Without a Subject?
-
+Do You Want to Send This Message Without the Subject?
